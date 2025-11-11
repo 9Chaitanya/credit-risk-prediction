@@ -40,7 +40,7 @@ user_input = st.text_area("Paste JSON here", height=300)
 if st.button("Predict"):
     try:
         data = json.loads(user_input)
-        api_url = "https://credit-risk-prediction-hfx2.onrender.com/"
+        api_url = "https://credit-risk-prediction-hfx2.onrender.com/predict"
         response = requests.post(api_url, json=data)
 
         if response.status_code == 200:
