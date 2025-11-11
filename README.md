@@ -1,7 +1,7 @@
-# 🏦 Credit Risk Scoring with Explainable AI (XAI)
+# 🏦 Credit Risk Scoring
 
 ### 📘 Overview
-This project predicts credit default risk using Logistic Regression, Random Forest, and XGBoost, and provides model explainability using SHAP.
+This project predicts credit default risk using Random Forest and Deployment of FastAPI backend & Streamlit UI on Render. Aim was to make end-to-end ml project.
 
 ### 📁 Structure
 - `data/` – Raw and preprocessed datasets
